@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/**/*.js": {
+      "maxDuration": 10
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron-analysis",
+      "schedule": "0 9,12,15 * * 1-5"
+    }
+  ]
+}

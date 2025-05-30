@@ -1,0 +1,45 @@
+# 環境変数・機密情報
+.env
+.env.local
+.env.*.local
+config/secrets.json
+credentials/
+*.pem
+*.key
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.npm
+
+# ビルド成果物
+dist/
+build/
+.next/
+.vercel/
+
+# データベース・データファイル
+*.db
+*.sqlite
+data/
+logs/
+*.log
+
+# 開発環境・IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# キャッシュ・一時ファイル
+.cache/
+tmp/
+temp/
+.tmp/
+
+# TradeharmonyAI固有
+price-cache/
+ai-analysis-cache/
+user-data-dev/
